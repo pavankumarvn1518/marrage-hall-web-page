@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="selection.css">
+  
+</head>
+<body style="color: rgb(47, 104, 114);">
+<h1  style="color:rgba(240, 78, 28, 0.863)"><center><u>SELECTION PAGE</u></center></h1><br><br><br>
+<center>
+    <form onsubmit="return validateForm()"
+    method="post" action="mrg.html">
+    <label> PLACE :</label> 
+    <select>
+    <option value="Koppala">Koppala</option>
+    <option value="Sagara">Sagara</option>
+    <option value="Siddapura">Siddapura</option>
+    <option value="Sirsi">Sirsi</option>
+    <option value="Hubli">Hubli</option>
+    <option value="Mangloore">Mangloore</option>
+    <option value="Belgavi">Belgavi</option>
+    <option value="Bangloore">Bangloore</option>
+    <option value="Banavasi">Banavasi</option>
+    </select>
+    <h2> Enter the duration</h2><br><br>
+    <label for="register">From date:</label>
+    <input type="date" id="t1" name="birthday"><br><br>
+    <label for="resister">To date:</label>
+    <input type="date" id="t2" name="birthday" ><br><br>
+    <center> <button type="button" onclick="abc()" >Click</button></center>
+     <div id="d1" style="visibility:hidden">
+     <h2><center><u>THANK YOU</u></center></h2>
+     <center><h2>It is available</h2></center>
+     <center><input type="submit" value="SUBMIT"></center>
+     </div>
+ </form> 
+ <script src="selection.js"></script>  
+</body>
+</html>

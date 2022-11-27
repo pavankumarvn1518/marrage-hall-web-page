@@ -1,0 +1,12 @@
+input[type=text]
+{
+padding: 9px 20px;
+margin: 1px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid blue;
+background-color: whitesmoke;
+}
+body{
+ background-color: rgb(150, 235, 207);
+}
